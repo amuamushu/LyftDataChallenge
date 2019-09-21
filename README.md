@@ -27,11 +27,25 @@ A remote challenge presented by Lyft where students analyze three CSV files cont
 1. Python Pandas package
    - used to combine the columns from the various spreadsheets and group data by identifiers such as driver id and ride id
    - used to create CSVs with new grouped columns
-2. Tableau
+2. Datatime Module
+   - used to convert the given timestamps to datetime objects for easy comparisions and grouping
+3. Tableau
    - used to visialize the data from the inputted CSVs
-3. Jupyter Notebook
+4. Jupyter Notebook
    - used for data exploration 
 
-### Contributions
+## How we calculated Driver Lifetime Value
+We created a formula, which takes into account (as a percentile):
+- the driver retention period
+- ratio of number of rides to total distance from all rides *(we discovered that shorter rides are more beneficial to Lyft because drivers are driving more often and the base fare ensure that Lyft receives a minimum amount regardless of how far or long the ride is)*
+- sum of all prime times the driver drove in
+- sum of how long the riders waited for the driver.
 
-**Amy Nguyen** used Pandas to calculate the formula for a driver's lifetime value, which takes into account the driver retention period,  
+## Contributions
+
+**Amy Nguyen** 
+- calculated the formula for a driver's lifetime value on a table. This was done so by using Pandas to merge the CSVs and group rows on driver id.
+- calculated driver rentention using the given ride_ids and timestamps CSVs. The CSVs were merged ride_id and grouped by driver_id to get the max and min ride times (the oldest and latest rides). The max and min ride time columns were then converted to datatime objects in order to subtract them and get the period in which they were driving (the difference). 
+
+**Madeline**
+- created all of the graphs and visualizations using Tableau
