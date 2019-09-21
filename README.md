@@ -41,10 +41,10 @@ A remote challenge presented by Lyft where students analyze three CSV files cont
 
 ## How we calculated Driver Lifetime Value
 We created a formula, which takes into account (as a percentile):
-- the driver retention period
-- ratio of number of rides to total distance from all rides *(we discovered that shorter rides are more beneficial to Lyft because drivers are driving more often and the base fare ensure that Lyft receives a minimum amount regardless of how far or long the ride is)*
-- sum of all prime times the driver drove in
-- sum of how long the riders waited for the driver.
+- **the driver retention period**
+- **ratio of number of rides to total distance from all rides** *(we discovered that shorter rides are more beneficial to Lyft because drivers are driving more often and the base fare ensure that Lyft receives a minimum amount regardless of how far or long the ride is)*
+- **sum of all prime times the driver drove in**
+- **sum of how long the riders waited for the driver**
 
 ## Contributions
 
