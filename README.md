@@ -3,9 +3,9 @@
 A remote challenge presented by Lyft where students analyze three CSV files containing driver and ride information in order to determine a Driver's Lifetime Value (the value of a driver to Lyft over the entire projected lifetime of a driver)
 
 **Table of Content**
-[Tools/Techonology Used](https://github.com/amuamushu/LyftDataChallenge/blob/master/README.md#toolstechnology-used)
-[How we caculated Driver Lifetime Value](https://github.com/amuamushu/LyftDataChallenge/blob/master/README.md#how-we-calculated-driver-lifetime-value)
-[Contributions](https://github.com/amuamushu/LyftDataChallenge/blob/master/README.md#contributions)
+- [Tools/Techonology Used](https://github.com/amuamushu/LyftDataChallenge/blob/master/README.md#toolstechnology-used)
+- [How we caculated Driver Lifetime Value](https://github.com/amuamushu/LyftDataChallenge/blob/master/README.md#how-we-calculated-driver-lifetime-value)
+- [Contributions](https://github.com/amuamushu/LyftDataChallenge/blob/master/README.md#contributions)
 
 ### A 5 page write-up was submitted at the end of the challenge to answer the following questions:
 1. What are the main factors that affect a driver's lifetime value? 
