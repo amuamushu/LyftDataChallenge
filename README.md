@@ -14,7 +14,7 @@ A remote challenge presented by Lyft where students analyze three CSV files cont
    - **driver_onboard_date** Date on which driver was on-boarded 
 2. ride_ids.csv
    - **driver_id** Unique identifier for a driver
-   - r**ide_id** Unique identifier for a ride that was completed by the driver
+   - **ride_id** Unique identifier for a ride that was completed by the driver
    - **ride_distance** Ride distance in meters
    - **ride_duration Ride** duration in seconds 
    - **ride_prime_time** Prime Time applied on the ride
@@ -22,3 +22,16 @@ A remote challenge presented by Lyft where students analyze three CSV files cont
    - **ride_id** Unique identifier for a ride
    - **event** the type of event *(request, accept, arrival, picked up, dropped off)*
    - **timestamp** Time of event
+   
+### Tools/Technology Used
+1. Python Pandas package
+   - used to combine the columns from the various spreadsheets and group data by identifiers such as driver id and ride id
+   - used to create CSVs with new grouped columns
+2. Tableau
+   - used to visialize the data from the inputted CSVs
+3. Jupyter Notebook
+   - used for data exploration 
+
+### Contributions
+
+**Amy Nguyen** used Pandas to calculate the formula for a driver's lifetime value, which takes into account the driver retention period,  
