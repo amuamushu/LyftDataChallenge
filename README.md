@@ -48,9 +48,9 @@ We created a formula, which takes into account (as a percentile):
 
 ## Contributions
 
-**Amy Nguyen** 
-- calculated the formula for a driver's lifetime value on a table. This was done so by using Pandas to merge the CSVs and group rows on driver id.
-- calculated driver rentention using the given ride_ids and timestamps CSVs. The CSVs were merged ride_id and grouped by driver_id to get the max and min ride times (the oldest and latest rides). The max and min ride time columns were then converted to datatime objects in order to subtract them and get the period in which they were driving (the difference). 
+###**Amy Nguyen** 
+- **Calculated the formula for a driver's lifetime value on a table.** This was done so by using Pandas to merge the CSVs and group rows on driver id.
+- **calculated driver rentention using the given ride_ids and timestamps CSVs.** The CSVs were merged ride_id and grouped by driver_id to get the max and min ride times (the oldest and latest rides). The max and min ride time columns were then converted to datatime objects in order to subtract them and get the period in which they were driving (the difference). 
 
-**Madeline**
-- created all of the graphs and visualizations using Tableau
+###**Madeline**
+- **created all of the graphs and visualizations using Tableau**
