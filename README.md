@@ -23,7 +23,7 @@ A remote challenge presented by Lyft where students analyze three CSV files cont
    - **event** the type of event *(request, accept, arrival, picked up, dropped off)*
    - **timestamp** Time of event
    
-### Tools/Technology Used
+## Tools/Technology Used
 1. Python Pandas package
    - used to combine the columns from the various spreadsheets and group data by identifiers such as driver id and ride id
    - used to create CSVs with new grouped columns
